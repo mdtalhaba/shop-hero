@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shop Hero</title>
+</head>
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="#"><img class="logo" src="resources/logo.png" alt=""></a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <form class="d-flex ms-lg-5" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+            <ul class="navbar-nav gap-lg-5 m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-disabled="true">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-cart-plus text-light fs-4 mt-2" aria-hidden="true"></i>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-user-o text-light fs-4 mt-2" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-background active">
+            <div class="banner-container d-lg-flex justify-content-between w-75 mx-auto">
+                <div class="mt-5 text-center text-lg-start mb-0 pb-5">
+                    <p class="small-text text-secondary">Pro.Beyond.</p>
+                    <h1 class="large-text"><span class="thin">IPhone</span> <span class="bold">14 Pro</span></h1>
+                    <p class="small-text fw-medium">Created to change everything for the better. For everyone</p>
+                </div>
+                <img class="carousel-image" src="resources/IphoneImage1.png" alt="">
+            </div>
+          </div>
+          <div class="carousel-item carousel-background">
+            <div class="banner-container d-lg-flex justify-content-between w-75 mx-auto">
+                <div class="mt-5 text-center text-lg-start mb-0 pb-5">
+                    <p class="small-text text-secondary">Pro.Beyond.</p>
+                    <h1 class="large-text"><span class="thin">Apple</span> <span class="bold">Camera</span></h1>
+                    <p class="small-text fw-medium">Created to change everything for the better. For everyone</p>
+                </div>
+                <img class="carousel-image" src="resources/camera.png" alt="">
+            </div>
+          </div>
+          <div class="carousel-item carousel-background">
+            <div class="banner-container d-lg-flex justify-content-between w-75 mx-auto">
+                <div class="mt-5 text-center text-lg-start mb-0 pb-5">
+                    <p class="small-text text-secondary">Pro.Beyond.</p>
+                    <h1 class="large-text"><span class="thin">Apple</span> <span class="bold">Watch</span></h1>
+                    <p class="small-text fw-medium">Created to change everything for the better. For everyone</p>
+                </div>
+                <img class="carousel-image" src="resources/appleWatch.png" alt="">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   </header>
+
+
+   <main>
+    <section class="ad-container row">
+      <div class="ad-left col-lg-6 p-0">
+        <div class="ipad d-flex">
+          <img src="resources/ipad.png" alt="">
+          <div>
+            <h1>ipad 9</h1>
+            <p>Introducing the iPad 9, where innovation meets versatility, setting the gold standard for your digital experience. Immerse yourself in a stunning 10.2-inch Retina display, delivering crisp visuals and vibrant colors for an unparalleled viewing experience.</p>
+          </div>
+        </div>
+        <div class="airpods d-flex">
+          <img src="resources/airpods.png" alt="">
+          <div class="px-5 py-4">
+            <h1 class="fw-light">Apple AirPods</h1>
+            <h1>Max</h1>
+            <p class="text-light">Step into a world where sound comes to life – introducing the Apple AirPods Max, the epitome of audio innovation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ad-right col-lg-6 d-lg-flex p-5">
+        <div class="macbook-text">
+          <h1 class="fw-light">Macbook</h1>
+          <h1>Air</h1>
+          <p>The MacBook Air, a masterpiece of design and engineering, is here to redefine the way you experience computing. Embrace portability like never before. The MacBook Air is a feather-light companion, effortlessly fitting into your lifestyle and leaving a lasting impression with its sleek aluminum unibody.</p>
+             <button class="btn btn-primary px-5 py-2">Shop Now</button>
+        </div>
+        <img src="resources/laptop.png" alt="">
+      </div>
+    </section>
+
+  <!-- Categories Section -->
+
+    <section class="categories">
+      <div class="container">
+        <h2 class="mb-5">Browse By Category</h2>
+        <div class="row justify-content-around row-gap-4">
+          <div class="col-5 col-lg-2">
+            <div class="category-card d-flex justify-content-center">
+              <div class="my-auto">
+                <div class="d-flex justify-content-center"><i class="fa fa-mobile fs-1"></i></div>
+              <h5 class="fw-medium mt-2">Phones</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-lg-2">
+            <div class="category-card d-flex justify-content-center">
+              <div class="my-auto">
+                <div class="d-flex justify-content-center"><img class="category-icon" src="resources/smartWatch.png" alt=""></div>
+              <h5 class="fw-medium mt-2">Smart Watches</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-lg-2">
+            <div class="category-card d-flex justify-content-center">
+              <div class="my-auto">
+                <div class="d-flex justify-content-center"><i class="fa fa-camera fs-2"></i></div>
+              <h5 class="fw-medium mt-2">Cameras</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-lg-2">
+            <div class="category-card d-flex justify-content-center">
+              <div class="my-auto">
+                <div class="d-flex justify-content-center"><i class="fa fa-headphones fs-1"></i></div>
+              <h5 class="fw-medium mt-2">Headphones</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-lg-2">
+            <div class="category-card d-flex justify-content-center">
+              <div class="my-auto">
+                <div class="d-flex justify-content-center"><i class="fa fa-desktop fs-1"></i></div>
+              <h5 class="fw-medium mt-2">Computers</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-lg-2">
+            <div class="category-card d-flex justify-content-center">
+              <div class="my-auto">
+                <div class="d-flex justify-content-center"><i class="fa fa-gamepad fs-1"></i></div>
+              <h5 class="fw-medium mt-2">Gaming</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+      </div>
+
+    <section class="container py-5">
+      <div>
+        <div class="product-type d-flex gap-4 mb-4">
+          <li class="btn active">New Arrival</li>
+          <li class="btn">Bestseller</li>
+          <li class="btn ">Featured Products</li>
+        </div>
+        <div class="row justify-content-around">
+          <div class="card my-2 my-lg-0" style="width: 18rem; background-color: #f6f6f6;">
+            <div class="d-flex justify-content-end p-3"><i class="fa fa-heart fs-2" aria-hidden="true"></i></div>
+            <img src="resources/Iphone14pro.png" class="card-img-top w-75 m-auto" alt="...">
+            <div class="card-body text-center">
+              <p class="card-text fw-medium">Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</p>
+              <h5 class="card-title mb-3 fw-bold fs-3">$900</h5>
+              <a href="#" class="btn btn-dark w-100">Buy Now</a>
+            </div>
+          </div>
+          <div class="card my-2 my-lg-0" style="width: 18rem; background-color: #f6f6f6;">
+            <div class="d-flex justify-content-end p-3"><i class="fa fa-heart fs-2" aria-hidden="true"></i></div>
+            <img src="resources/camera.png" class="card-img-top w-75 m-auto" alt="...">
+            <div class="card-body text-center">
+              <p class="card-text fw-medium">Blackmagic Pocket Cinema Camera 6k</p>
+              <h5 class="card-title mb-3 fw-bold fs-3">$2535</h5>
+              <a href="#" class="btn btn-dark w-100">Buy Now</a>
+            </div>
+          </div>
+          <div class="card my-2 my-lg-0" style="width: 18rem; background-color: #f6f6f6;">
+            <div class="d-flex justify-content-end p-3"><i class="fa fa-heart fs-2" aria-hidden="true"></i></div>
+            <img src="resources/appleWatch.png" class="card-img-top w-75 m-auto" alt="...">
+            <div class="card-body text-center">
+              <p class="card-text fw-medium">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</p>
+              <h5 class="card-title mb-3 fw-bold fs-3">$399</h5>
+              <a href="#" class="btn btn-dark w-100">Buy Now</a>
+            </div>
+          </div>
+          <div class="card my-2 my-lg-0" style="width: 18rem; background-color: #f6f6f6;">
+            <div class="d-flex justify-content-end p-3"><i class="fa fa-heart fs-2" aria-hidden="true"></i></div>
+            <img src="resources/airpods.png" class="card-img-top w-75 m-auto" alt="...">
+            <div class="card-body text-center">
+              <p class="card-text fw-medium">AirPods Max Silver</p>
+              <h5 class="card-title mb-3 fw-bold fs-3">$549</h5>
+              <a href="#" class="btn btn-dark w-100">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div class="d-lg-flex justify-content-lg-between">
+        <img class="offer-img1" src="resources/ipad1.png" alt="">
+        <div class="offer-text m-auto my-4 text-center text-light">
+          <h1 class="offer-large-text"><span>11.11</span> Sale</h1>
+          <p>Elevate your experience without breaking the bank. This is the deal you've been waiting for!</p>
+        </div>
+        <img class="offer-img2" src="resources/ipad-2.png" alt="">
+      </div>
+    </section>
+
+    <footer class="footer-container">
+      <div class="d-lg-flex text-center text-lg-start justify-content-between text-light">
+        <div class="d-lg-flex gap-5 my-4 my-lg-0">
+          <img class="footer-logo" src="resources/logo.png" alt="">
+          <i class="fa fa-twitter m-4 m-lg-0 fs-3" aria-hidden="true"></i>
+          <i class="fa fa-facebook m-4 m-lg-0 fs-3" aria-hidden="true"></i>
+          <i class="fa fa-instagram m-4 m-lg-0 fs-3" aria-hidden="true"></i>
+        </div>
+        <div class="survises my-4 my-lg-0">
+          <li class="fw-bold">Services</li>
+          <li>Bonus program</li>
+          <li>Gift cards</li>
+          <li>Credit and payment</li>
+          <li>Service contracts</li>
+          <li>Non-cash account</li>
+          <li>Payment</li>
+        </div>
+        <div class="assistence">
+          <li class="fw-bold">Assistance to the buyer</li>
+          <li>Find an order</li>
+          <li>Terms of delivery</li>
+          <li>Exchange and return of goods</li>
+          <li>Guarantee</li>
+          <li>Frequently asked questions</li>
+          <li>Terms of use of the site</li>
+        </div>
+      </div>
+    </footer>
+   </main>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
